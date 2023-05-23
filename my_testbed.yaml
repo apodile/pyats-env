@@ -1,0 +1,27 @@
+devices:
+  SW01:
+    connections:
+      cli:
+        ip: 10.126.253.47
+        protocol: ssh
+    credentials:
+      default:
+        password: admin
+        username: admin
+      enable:
+        password: '%ENC{w5PDosOUw5fDog==}'
+    os: ios
+    type: ios
+  SW02:
+    connections:
+      cli:
+        ip: 10.126.76.109
+        protocol: ssh
+    credentials:
+      default:
+        password: admin
+        username: admin
+      enable:
+        password: '%ENC{w5PDosOUw5fDog==}'
+    os: ios
+    type: ios
